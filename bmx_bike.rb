@@ -21,7 +21,7 @@ class BmxBike
   end
 
   def total_price
-    @total_price = self.weekly_rate + self.tail_pack.cost
+    @total_price = self.weekly_rate + self.tail_pack.price
   end
 
 end
