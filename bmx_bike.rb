@@ -20,4 +20,8 @@ class BmxBike
     puts "Adjusting seat..."
   end
 
+  def total_price
+    @total_price = self.weekly_rate + self.tail_pack.cost
+  end
+
 end
