@@ -1,4 +1,4 @@
-require_relative 'pannier'
+require_relative 'luggage'
 
 class RoadBike
 
