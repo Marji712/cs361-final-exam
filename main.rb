@@ -15,9 +15,7 @@ bikes = [
 ]
 
 total_price = 0
-total_price += bikes[0].total_price
-total_price += bikes[1].total_price
-total_price += bikes[2].total_price
-total_price += bikes[3].total_price
+bikes.each { |bike|
+	total_price += bike.total_price}
 
 puts "Total price: #{total_price}"
